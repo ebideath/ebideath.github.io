@@ -16,6 +16,7 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+
   }
   nav ul::after {
     display: block;
@@ -31,7 +32,7 @@ nav ul {
     border-left: none;
   }
   nav ul li:hover {
-    background-color: rgba(100,0,0,0.5);
+    background-color: rgba(100,0,0,0.6);
   }
   nav ul li a {
     display: inline-block;

@@ -8,12 +8,19 @@
   </head>
   <body>
 
+      <div>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+      </div>
+      
   <nav>
     <ul class="menu">
-        <li><a href="ebideath.github.io">HOME</a></li>
-        <li><a href="ebideath.github.io/bms">BMS</a></li>
-        <li><a href="#">OTHER</a></li>
-        <li><a href="#">LINK</a>
+        <span><li><a href="ebideath.github.io">HOME</a></li></span>
+        <span><li><a href="ebideath.github.io/bms">BMS</a></li></span>
+        <span><li><a href="#">OTHER</a></li></span>
+        <span><li><a href="#">LINK</a></span>
           <ul>
             <li><a href="https://twitter.com/ebideath"><img src="pics/twitter.jpg" class="pics"></a></li>
             <li><a href="https://ebideath.bandcamp.com/"><img src="pics/bandcamp.jpg" class="pics"></a></li>
@@ -34,4 +41,15 @@
           おほほ
           </p>  
   </body>
+
+  <script type="text/javascript">
+    $(function(){
+      $('#nav_toggle').click(function(){
+            $("header").toggleClass('open');
+        $("nav").fadeToggle(500);
+          });
+
+    });
+  </script>
+  
 </html>
