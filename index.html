@@ -8,13 +8,6 @@
   </head>
   <body>
 
-      <div>
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-      </div>
-      
   <nav>
     <ul class="menu">
         <span><li><a href="ebideath.github.io">HOME</a></li></span>
@@ -34,22 +27,103 @@
       </ul>
     </nav>
 
+      <img src="pics/ebideath.png" alt="fixedImage" id="floatButton1">
+
       <p>えびです。<br>
         わーい！
         </p>
         <p>
           おほほ
           </p>  
+
+<p>
+          上に戻る<br>
+FIXED DESIGN.co.ltd<br>
+top<br>
+about<br>
+works<br>
+staff<br>
+access<br>
+contact<br>
+ <br>
+<br>
+fixed<br>
+右に貼り付けている「上に戻る」のボタンがずーっとついてきます。<br>
+<br>
+スクロールしてもずーっと同じ位置にいます。<br>
+<br>
+ <br>
+<br>
+スクロールして確認してみてください。<br>
+<br>
+ <br>
+<br>
+この例のように画面の右端に貼り付けたいのであれば、<br>
+<br>
+ <br>
+<br>
+＜body＞タグの直下にを作成し、その中に「TOP（アンカーポイント名）」に戻るリンクを持った画像を配置しておきます。(例：#top)<br>
+<br>
+ <br>
+<br>
+たとえばのID名が「＃backtop」なら<br>
+<br>
+ <br>
+<br>
+<br>
+<br>
+ <br>
+<br>
+上記でいけます。<br>
+<br>
+ <br>
+<br>
+キモは「position:fixed」と「right:0px」です。<br>
+<br>
+ <br>
+<br>
+「position:fixed」これが、「absolute」と同じく、positionプロパティを持った親の中に絶対的に決めた座標位置に要素を配置するプロパティなのですが、「absolute」と違うのが、スクロールしても、最初に決めた座標から動かない、という点があります。<br>
+<br>
+ <br>
+<br>
+「top: 50px;right: 0px;」これが「上から50px」「右から0px」つまり右端に配置している部分です。<br>
+<br>
+左端につけたい場合は「left:0px」をつけたらいけます。<br>
+<br>
+ <br>
+<br>
+どこ？という方は、右クリック等でソースをのぞいてみてください。<br>
+10行目～2０行目にCSSのソース<br>
+<br>
+ <br>
+<br>
+30行目にHTMLのソースを記載しています。<br>
+<br>
+ <br>
+<br>
+なお、この「fixed」のpositionの値を設定しているときは、デザインビューが若干乱れた見栄えになることがありますが、ライブビューではきちんと治りますので、あわてず、強い心を持ってください・<br>
+<br>
+ <br>
+<br>
+お試しあれ。<br>
+<br>
+ <br>
+<br>
+ <br>
+<br>
+fixed design.co.,ltd<br>
+<br>
+Powered by FC2ホームページ<br>
+<br>
+ <br>
+この広告は3ヶ月以上更新がない場合に表示されます。<br>
+ホームページの更新後、24時間以内に表示されなくなります。<br>
+ <br>
+この広告は3ヶ月以上更新がない場合に表示されます。ホームページの更新後、24時間以内に表示されなくなります。<br>
+<br>
+
+</p>
+
   </body>
-
-  <script type="text/javascript">
-    $(function(){
-      $('#nav_toggle').click(function(){
-            $("header").toggleClass('open');
-        $("nav").fadeToggle(500);
-          });
-
-    });
-  </script>
   
 </html>
