@@ -16,9 +16,16 @@ body{
 }
 
 p{
-    padding: 10px 35px 0px;
+    padding: 8px 35px 0px;
     line-height:18px;
 } 
+
+hr{
+    text-align:left;
+    margin-left:35px;
+    border: 1px #7a162c solid;
+}
+
 
 img#floatButton1 {
     position: fixed;
@@ -27,4 +34,44 @@ img#floatButton1 {
     width: 160px;
     height: 160px;
     opacity: 0.2;
+}
+
+img#headicon {
+    position: fixed;
+    left: 25px;
+    top: 5px;
+    width: 35px;
+    height: 35px;
+}
+
+/* ヘッダーの固定 */
+div#header-fixed
+{
+    position: fixed;            /* ヘッダーの固定 */
+    top: 0px;                   /* 位置(上0px) */
+    left: 0px;                  /* 位置(右0px) */
+    width: 100%;                /* 横幅100%　*/
+    height: 40px;              /* 縦幅140px */
+}
+ 
+ 
+div#header-bk { 
+	background-color:#150000;     /* 背景色(黒) */
+	padding:10px 0 20px;       /* 上10px、下20pxをあける */
+	height:20px;              /* 縦の高さ110px */
+	width:100%;                /* 横の幅を100% */
+}
+ 
+ 
+div#header { 
+	height: 100%;              /* 縦の表示領域はheader-bkと同じ */
+	width: 960px;              /* 横の幅970px */
+    margin: left;              /* 中央揃え */
+    transform: translateX(70px) translateY(8px);
+}
+
+div#header2 { 
+	height: 100%;              /* 縦の表示領域はheader-bkと同じ */
+    float:right;              /* 中央揃え */
+    transform: translateX(-30px) translateY(-12px);
 }
