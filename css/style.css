@@ -1,0 +1,21 @@
+html {
+    background: 
+    linear-gradient(135deg, #270511 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, #270511 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, #270511 25%, transparent 25%),
+    linear-gradient(45deg, #270511 25%, transparent 25%);	
+    background-size: 2em 2em;
+    background-color:#350516;
+
+}
+
+body{
+    color: #fff;
+    font-family: MS UI Gothic;
+    font-size: 90%;
+}
+
+p{
+    padding: 15px 20px 0px;
+    line-height:18px;
+} 
