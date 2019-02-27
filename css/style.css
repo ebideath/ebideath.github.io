@@ -82,6 +82,14 @@ div#header2 {
     transform: translateX(-30px) translateY(-12px);
 }
 
+
+div#tweet { 
+	height: 100%;              /* 縦の表示領域はheader-bkと同じ */
+    float:left;              /* 中央揃え */
+    transform: translateX(195px) translateY(-16px);
+}
+
+
 img#thumbnail { 
     padding: 8px 35px 35px;
     line-height:18px;
