@@ -87,7 +87,7 @@ div#tweet {
 	height: 100%;              /* 縦の表示領域はheader-bkと同じ */
     float:left;              /* 中央揃え */
 
-    transform: translateX(250px) translateY(-15px);
+    transform: translateX(250px) translateY(-16px);
 
 }
 
