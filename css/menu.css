@@ -1,7 +1,16 @@
 @charset "Shift_Jis";
 
 .menu {
-    padding: 75px 35px 10px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+  text-align: center;
+  height: 0px;
+  padding: 85px 0px 85px;
+  margin: 0px;
 }
 
 .pics {
@@ -12,6 +21,7 @@
   }
 
 nav ul {
+
     position: relative;
     margin: 0;
     padding: 0;
