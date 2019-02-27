@@ -20,10 +20,16 @@ p{
     line-height:18px;
 } 
 
+p#point{
+    color: rgb(214, 127, 127);
+}
+
 hr{
+    
     text-align:left;
     margin-left:35px;
     border: 1px #7a162c solid;
+    clear:both;
 }
 
 
@@ -56,7 +62,7 @@ div#header-fixed
  
  
 div#header-bk { 
-	background-color:#150000;     /* 背景色(黒) */
+	background-color:#150f00;     /* 背景色(黒) */
 	padding:10px 0 20px;       /* 上10px、下20pxをあける */
 	height:20px;              /* 縦の高さ110px */
 	width:100%;                /* 横の幅を100% */
@@ -74,4 +80,26 @@ div#header2 {
 	height: 100%;              /* 縦の表示領域はheader-bkと同じ */
     float:right;              /* 中央揃え */
     transform: translateX(-30px) translateY(-12px);
+}
+
+img#thumbnail { 
+    padding: 8px 35px 35px;
+    line-height:18px;
+    height: 170px;
+    float: left;
+}
+
+
+p#right { 
+    float: right;
+}
+
+.movieleft {
+    padding: 8px 35px 35px;
+    line-height:18px;
+    height: 170px;
+    float: left;
+}
+br#space{
+    line-height: 3250%;
 }
