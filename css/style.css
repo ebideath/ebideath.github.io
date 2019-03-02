@@ -134,6 +134,12 @@ div#centering{
     justify-content: center;
 }
 
+div#txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 p#bottomhr{
     clear:both ;
 }
