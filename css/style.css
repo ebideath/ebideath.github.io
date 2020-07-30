@@ -1,0 +1,131 @@
+html {
+    background: 
+    linear-gradient(135deg, #270511 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, #270511 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, #270511 25%, transparent 25%),
+    linear-gradient(45deg, #270511 25%, transparent 25%);	
+    background-size: 2em 2em;
+    background-color:#350516;
+
+}
+
+body{
+    color: #fff;
+    font-family: MS UI Gothic;
+    font-size: 90%;
+}
+
+p{
+    text-align: center;
+    padding: 7px 35px 7px;
+    line-height:18px;
+} 
+
+p#point{
+    color: rgb(214, 127, 127);
+}
+
+hr{
+border:none;
+border-top:dashed 2px #7a162c;
+height:1px;
+color:#FFFFFF;
+}
+
+
+img#floatButton1 {
+    position: fixed;
+    right: 40px;
+    bottom: 30px;
+    width: 160px;
+    height: 160px;
+    opacity: 0.2;
+}
+
+img#headicon {
+    position: fixed;
+    left: 25px;
+    top: 5px;
+    width: 35px;
+    height: 35px;
+}
+
+/* ヘッダーの固定 */
+div#header-fixed
+{
+    position: fixed;            /* ヘッダーの固定 */
+    top: 0px;                   /* 位置(上0px) */
+    left: 0px;                  /* 位置(右0px) */
+    width: 100%;                /* 横幅100%　*/
+    height: 40px;              /* 縦幅140px */
+}
+ 
+ 
+div#header-bk { 
+	background-color:#150f00;     /* 背景色(黒) */
+	padding:10px 0 20px;       /* 上10px、下20pxをあける */
+	height:20px;              /* 縦の高さ110px */
+	width:100%;                /* 横の幅を100% */
+}
+ 
+ 
+div#header { 
+	height: 100%;              /* 縦の表示領域はheader-bkと同じ */
+	width: 960px;              /* 横の幅970px */
+    margin: left;              /* 中央揃え */
+    transform: translateX(70px) translateY(8px);
+}
+
+div#header2 { 
+	height: 100%;              /* 縦の表示領域はheader-bkと同じ */
+    float:right;              /* 中央揃え */
+    transform: translateX(-30px) translateY(-12px);
+}
+
+
+div#tweet { 
+	height: 100%;              /* 縦の表示領域はheader-bkと同じ */
+    float:left;              /* 中央揃え */
+
+    transform: translateX(250px) translateY(-16px);
+
+}
+
+
+img#thumbnail { 
+    height: 190px;
+    float:left;
+}
+
+div#thumbnailtxt { 
+    float:left;
+}
+
+
+p#right { 
+    float: right;
+}
+
+.movieleft {
+    padding: 8px 35px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+br#space{
+    line-height: 3250%;
+}
+
+div#menu{
+    text-align: center;
+}
+
+div#centering{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p#bottomhr{
+    clear:both ;
+}
